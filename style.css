@@ -25,17 +25,39 @@ header{
     font-size: 1.5em;
     font-weight: 700;
 }
+.search{
+    margin-right: 50px;
+}
 .input-search{
     height: 30px;
     width: 55vw;
-    margin-right: 50px;
-    border: none;
     border-radius: 2em;
+    border: none;
+}
+.section-videos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
 }
 .videos-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 20px;
+    width: 80vw;
 }
 .thumb-video{
-    color: black;
+    width: 17.5vw;
+    margin:0.3em;
+}
+.video-title{
+    font-size: 1.1em;
+    margin: 0px 10px 10px 10px;
+    font-weight: bolder;
+}
+.videos{
+    border: 1px solid gray;
+    margin: 10px;
 }
